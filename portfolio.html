@@ -32,6 +32,22 @@
         height: 100%;
       }
 
+      .text-container {
+          position: relative;
+          overflow: hidden;
+          padding: 0;
+          margin: 25px;
+      }
+
+      .text-block {
+        position: absolute;
+        bottom: 20px;
+        background-color: #399;
+        color: white;
+        text-align: center;
+        width: 100%;
+      }
+
 
     </style>
 
@@ -79,7 +95,7 @@
 
     <hr class="mt-0">
 
-    <div class="container border mt-5 bg-white">
+    <div class="container border my-5 bg-white">
 
         <div class="row">
             <h1 class="text-info p-3 mt-3">
@@ -91,32 +107,47 @@
 
         <div class="row">
 
-            <div class="col-sm-4">
+            <div class="col-md-4 text-container">
               <img src="images/Spotify.gif" alt="Spotify" class="img-fluid fit-img my-3">
+                <h2 class="text-block">
+                    Music
+                </h2>
             </div>
 
-            <div class="col-sm-4">
-              <img src="images/Game.gif" alt="Game" class="img-fluid fit-img my-3">  
+            <div class="col-md-4 text-container">
+              <img src="images/Game.gif" alt="Game" class="img-fluid fit-img my-3"> 
+              <h2 class="text-block">
+                Game
+            </h2> 
             </div>
 
         </div>
 
         <div class="row">
 
-            <div class="col-sm-4">
+            <div class="col-md-4 text-container">
               <img src="images/Dog.jpg" alt="Corgi" class="img-fluid fit-img my-3">
+              <h2 class="text-block">
+                  Corgi
+              </h2>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-md-4 text-container">
               <img src="images/Project.jpg" alt="Project" class="img-fluid fit-img my-3">
+              <h2 class="text-block">
+                Projects
+            </h2>
             </div>
             
         </div>
 
         <div class="row">
             
-            <div class="col-sm-4">
+            <div class="col-md-4 text-container">
               <img src="images/Resume.png" alt="Resume" class="img-fluid fit-img my-3">
+              <h2 class="text-block">
+                Resume
+            </h2>
             </div>
 
         </div>
